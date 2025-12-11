@@ -180,7 +180,7 @@ def main():
         Please ensure:
         1. Model files are in `models/pegasus-literature-review-final/`
         2. All files are uploaded to GitHub
-        3. Required files: `config.json`, `pytorch_model.bin`, `tokenizer_config.json`
+        3. Required files: `config.json`, `training_args.bin`, `tokenizer_config.json`
         """)
         
         # Show what files we have
