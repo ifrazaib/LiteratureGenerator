@@ -1,63 +1,6 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual Environments
+*.pyc
 venv/
-env/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
+.env
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-[Tt]humbs.db
-
-# Streamlit
 .streamlit/secrets.toml
-
-# Model files (large files)
-models/pegasus-literature-review-final/pytorch_model.bin
-*.bin
-*.safetensors
-
-# Jupyter
-.ipynb_checkpoints
-
-# Temp files
-*.tmp
-*.temp
-
-# Logs
-*.log
