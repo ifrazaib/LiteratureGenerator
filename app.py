@@ -77,7 +77,7 @@ def load_model():
             return None, None, None
         
         # Check for essential files
-        essential_files = ['config.json', 'pytorch_model.bin', 'tokenizer_config.json']
+        essential_files = ['config.json', 'training_args.bin', 'tokenizer_config.json']
         for file in essential_files:
             if not os.path.exists(os.path.join(model_path, file)):
                 st.error(f"❌ Missing essential file: {file}")
